@@ -7,7 +7,7 @@ import (
 	"log"
 	"time"
 
-	pb "github.com/marekruttner/btc_legacy_go_wallet/proto/btchdwallet"
+	pb "github.com/marekruttner/btc_legacy_go_wallet/proto/btc_legacy_go_wallet"
 	"google.golang.org/grpc"
 )
 

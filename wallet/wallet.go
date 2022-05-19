@@ -3,10 +3,10 @@ package wallet
 import (
 	"fmt"
 
-	pb "github.com/LuisAcerv/btchdwallet/proto/btchdwallet"
+	pb "https://github.com/marekruttner/btc_leagacy_go_wallet/proto/btc_legacy_go_wallet"
 
-	"github.com/LuisAcerv/btchdwallet/config"
-	"github.com/LuisAcerv/btchdwallet/crypt"
+	"github.com/marekruttner/btc_leagacy_go_wallet/config"
+	"github.com/marekruttner/btc_leagacy_go_wallet/crypt"
 	"github.com/blockcypher/gobcy"
 	"github.com/brianium/mnemonic"
 	"github.com/wemeetagain/go-hdwallet"
