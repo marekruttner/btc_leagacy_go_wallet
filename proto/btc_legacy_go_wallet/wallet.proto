@@ -2,7 +2,7 @@
 syntax = "proto3";
 package go.microservice.btc_legacy_go_wallet;
 
-option go_package = "github.com/marekruttner/btc_legacy_go_wallet/proto/btc_leagacy_go_wallet";
+option go_package = "github.com/marekruttner/btc_legacy_go_wallet/proto/btc_legacy_go_wallet";
 
 service Wallet {
     rpc CreateWallet(Request)      returns (Response) {}
