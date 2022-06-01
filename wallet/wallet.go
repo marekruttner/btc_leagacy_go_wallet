@@ -3,7 +3,7 @@ package wallet
 import (
 	"fmt"
 
-	pb "https://github.com/marekruttner/btc_legacy_go_wallet/proto/btc_legacy_go_wallet/"
+	pb "https://github.com/marekruttner/btc_legacy_go_wallet/proto/btc_legacy_go_wallet"
 
 	"github.com/marekruttner/btc_legacy_go_wallet/config"
 	"github.com/marekruttner/btc_legacy_go_wallet/crypt"
