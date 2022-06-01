@@ -6,8 +6,8 @@ import (
 	"log"
 	"net"
 
-	pb "https://github.com/marekruttner/btc_legacy_go_wallet/proto/btc_legacy_go_wallet"
-	"https://github.com/marekruttner/btc_legacy_go_wallet/wallet"
+	pb "github.com/marekruttner/btc_legacy_go_wallet/proto/btc_legacy_go_wallet"
+	"github.com/marekruttner/btc_legacy_go_wallet/wallet"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

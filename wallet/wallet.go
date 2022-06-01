@@ -3,12 +3,12 @@ package wallet
 import (
 	"fmt"
 
-	pb "https://github.com/marekruttner/btc_legacy_go_wallet/proto/btc_legacy_go_wallet"
+	pb "github.com/marekruttner/btc_legacy_go_wallet/proto/btc_legacy_go_wallet"
 
-	"github.com/marekruttner/btc_legacy_go_wallet/config"
-	"github.com/marekruttner/btc_legacy_go_wallet/crypt"
 	"github.com/blockcypher/gobcy"
 	"github.com/brianium/mnemonic"
+	"github.com/marekruttner/btc_legacy_go_wallet/config"
+	"github.com/marekruttner/btc_legacy_go_wallet/crypt"
 	"github.com/wemeetagain/go-hdwallet"
 )
 
