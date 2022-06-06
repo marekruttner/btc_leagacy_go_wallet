@@ -1,3 +1,8 @@
-# BITCOIN HD WALLET WITH GOLANG AND GRPC
+# BITCOIN HD WALLET WRITEN IN GOLANG
 
-In this tutorial we are going to learn how to create a HD bitcoin wallet using golang. The idea of the tutorial is not only showing how to create the wallet and send transactions but also how to implement GRPC server and CLI for consuming it.
+*how to use*
+- run main.go with the following command: go run main.go 
+- in other terminal window use the following commands:
+    - go run client/client.go -m=crate-wallet
+    - go run client/client.go -m=get-address -mne="mnemonic(seed)"
+    - go run client/client.go -m=get-ballance -adr=addres
